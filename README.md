@@ -4,7 +4,7 @@ PharmaLens is an Expo mobile app with a Python API. A user chooses English or Ur
 
 The Expo app is in `mobile/`; Sara's FastAPI server is in the repository root. Diya's helpers are in `helpers.py`, with a small, source-linked brand and generic reference list in `medicines.csv`.
 
-## Sara's server starter
+## server starter
 
 The FastAPI server accepts an image and `language` (`English` or `Urdu`) at `POST /extract`, sends it to Gemini, then passes each medicine through the helper functions in `helpers.py`.
 
